@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded text-white bg-green-500 border border-green-500 px-6 py-3 transition duration-100 ease-in-out;
+}
+
+.btn:hover {
+  @apply bg-green-700 border-green-700;
+}
+
+.btn-hollow {
+  @apply rounded text-green-500 bg-transparent border border-green-500 px-6 py-3 transition duration-100 ease-in-out;
+}
+
+.btn-hollow:hover {
+  @apply bg-green-500 text-white;
+}
